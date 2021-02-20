@@ -1,0 +1,12 @@
+<?php
+
+// credenciales de la base de datos
+define('DB_USUARIO', 'root');
+define('DB_PASSWORD', 'R3m0t0');
+define('DB_HOST', 'localhost');
+define('DB_NOMBRE', 'agendaphp');
+
+$conn = new mysqli(DB_HOST, DB_USUARIO, DB_PASSWORD, DB_NOMBRE );
+
+// para comprobar que se conecto a la base de datos
+// echo $conn->ping();
